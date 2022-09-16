@@ -1,8 +1,13 @@
 .App {
   text-align: center;
 }
+/* This will remove any margin or padding */
+body {
+  margin : 0;
+  padding: 0;
+}
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +40,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
