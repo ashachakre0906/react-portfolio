@@ -1,26 +1,34 @@
-import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap-nav';
+import react from "react";
+// import Nav from 'react-bootstrap/Nav';
+// import './navbar.css';
 import { Link } from 'react-router-dom';
-import './navbar.css';
 
-function Navbar(){
-    return (
-        <div className='navbar'>
-           <div className='toggleButton'>
-               <button></button>
-           </div>
-           <div className='links'>
-               <Link to='/'>Home</Link>
-               <Link to='/about'>About Me</Link>
-               <Link to='/portfolio'>Portfolio</Link>
-               <Link to='/resume'>Resume</Link>
-               <Link to='/contact'>Contact</Link>
-           </div>
-       </div>
-
-    )
-       
+function Navigation() {
+  return (
+    <ul className="nav justify-content-center">
+      <li className="nav-item">
+        <Link className="nav-link active" aria-current="page" to="/">
+          Home
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link" to="/about">
+          About
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link" to="/portfolio">
+          Portfolio
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link" to="/contact">Contact</Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link" to="/resume">Resume</Link>
+      </li>
+    </ul>
+  );
 }
 
-export default Navbar;
+export default Navigation;
