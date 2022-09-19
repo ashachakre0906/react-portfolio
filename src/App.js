@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 // import Footer from './components/Footer';
 import { BrowserRouter as Router,Routes, Route } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import About from "./components/About";
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       {/* <Navbar /> */}
     <Router>
     <Routes>
-      <Route path='/navbar' element = {<Navbar/>}></Route>
       {/* <Route path='/home' element = {<Home/>}></Route> */}
+      <Route path='/navbar' element = {<Navbar/>}></Route>
+      <Route path='/about' element = {<About/>}></Route>
       {/* <Route path='/about' element = {<About/>}></Route>
       <Route path='/portfolio'element = {<Portfolio/>}></Route>
       <Route path='/contact'element = {<Contact/>}></Route>
