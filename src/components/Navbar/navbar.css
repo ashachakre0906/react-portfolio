@@ -1,8 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 .nav-link{
     justify-content:flex-end;
 }
-.navbar-band{
+/* .header{
     font-family: 'Bungee Spice', cursive;
+} */
+.header {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color:azure;
 
+}
+.navbar-nav {
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
 }

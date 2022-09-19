@@ -7,7 +7,7 @@ function Navigation() {
     <>
       <Navbar collapseOnSelect expand='lg' bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand className="header">Asha Chakre</Navbar.Brand>
+          <header className="header">Asha Chakre</header>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className="nav-link" id="responsive-navbar-nav">
           <Nav>
