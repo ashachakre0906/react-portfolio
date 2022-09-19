@@ -1,23 +1,21 @@
 import react from "react";
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-
+import './navbar.css';
 function Navigation() {
   return (
     <>
       <Navbar collapseOnSelect expand='lg' bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Asha Chakre</Navbar.Brand>
+          <Navbar.Brand className="header">Asha Chakre</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
-            </Nav>
-            <Nav>
-            <Nav.Link href="#Home">Home</Nav.Link>
+        <Navbar.Collapse className="nav-link" id="responsive-navbar-nav">
+          <Nav>
+          <Nav.Link href="#Home">Home</Nav.Link>
             <Nav.Link href="#About">About</Nav.Link>
             <Nav.Link href="#Portfolio">Portfolio</Nav.Link>
             <Nav.Link href="#Portfolio">Contact</Nav.Link>
-          </Nav>
+          </Nav> 
           </Navbar.Collapse>
         </Container>
       </Navbar>
