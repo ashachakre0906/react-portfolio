@@ -1,12 +1,19 @@
-import React, {useEffect} from 'react';
-import Vivus from 'vivus';
-const MainTitle = () =>{
-    useEffect(() => {
-        new Vivus('main-title',{duration: 200, file:'../../../public/svg/main-title_animated.svg'})
-    },[])
-    return (
-        <div id='main-title'></div>
-    )
-
-}
+import ReactVivus from "react-vivus";
+import svg from "../../assets/images/svg/newfile_animated.svg";
+const MainTitle = () => {
+  return (
+    <div id="main-title">
+      <ReactVivus
+        id="foo"
+        option={{
+          file: svg,
+          animTimingFunction: "EASE",
+          type: "oneByOne",
+          onReady: console.log,
+        }}
+        callback={console.log}
+      />
+    </div>
+  );
+};
 export default MainTitle;
