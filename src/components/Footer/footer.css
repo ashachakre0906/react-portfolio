@@ -2,12 +2,19 @@
     position:fixed;
     left:0;
     bottom:0;
-    width: 100%;
+    min-width: 100%;
     background-color: black;
     color:white;
     text-align: center;
 }
 .footer-text{
     font-size:1.2em;
-    padding-top:12px;
+}
+.social-media-icons-white a{
+    color:rgba(255, 255, 255, 0.55);
+    font-size: 2rem;
+    margin: 10px;
+}
+.social-media-icons-white a:hover{
+    color:rgba(255, 255, 255, 0.75);
 }

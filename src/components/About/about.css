@@ -1,21 +1,23 @@
-:root{
-    --dark-purple: #202330;
-    --light-purple:#7b84aa;
+:root {
+  --dark-purple: #202330;
+  --light-purple: #7b84aa;
 }
 .about-me {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    width:100vw;
-    height: 100vh;
-    background: linear-gradient(10deg, var(--dark-purple),var(--light-purple));
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(10deg, var(--dark-purple), var(--light-purple)) no-repeat fixed center;
+  background-size: cover;
+  background-size: contain;
 }
 .about-me img {
-    width: 15rem;
-    border-radius:10px;
-    justify-self: center;
-    align-self: center;
+  width: 10rem;
+  border-radius: 10px;
+  justify-self: center;
+  align-self: center;
 }
-.main-title{
-    align-self: flex-start;
+.main-title {
+  align-self: flex-start;
 }
