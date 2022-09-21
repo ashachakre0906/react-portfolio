@@ -6,31 +6,42 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import About from "./components/About";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
+import Portfolio from "./components/Portfolio";
+import Projects from "./components/Projects";
+import Resume from "./components/Resume";
+
 function App() {
-  const [currentPage, switchPage] = useState("about");
+  const [currentPage, switchPage] = useState("Home");
   const renderPage = () => {
     switch (currentPage) {
-      case "about":
+      case "About":
         return <About />;
-      // case "portfolio":
-      //   return <Portfolio />;
-      // case "projects":
-      //   return <Projects />;
-      // case "resume":
-      //   return <Resume />;
+      case "Portfolio":
+        return <Portfolio />;
+      case "Project":
+        return <Projects />;
+      case "Resume":
+        return <Resume />;
         default:
           return <Home/>;
     }
   };
   return (
     <>
-      <Navbar />
-      {renderPage(currentPage)}
-      {/* {
-        currentPage === 'home' ? 
-        <div>{renderPage(currentPage)}</div>
-        :<div>{renderPage(currentPage)}</div>
-      } */}
+      {/* <Navbar /> */}
+      {/* {renderPage(currentPage)} */}
+      {
+        currentPage === 'Home' ? 
+        <div>
+        <Navbar currentPage = {currentPage} switchPage = {switchPage} />
+          {renderPage(currentPage)}
+          </div>
+        
+        :<div> <Navbar currentPage = {currentPage} switchPage = {switchPage} />
+        {renderPage(currentPage)}
+        </div>
+        
+      }
       <Footer />
     </>
   );
