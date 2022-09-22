@@ -1,30 +1,53 @@
 import React from "react";
-import Card from 'react-bootstrap/Card';
+import Card from "react-bootstrap/Card";
 import { Button } from "react-bootstrap";
 const Portfolio = () => {
+  const projectsInfo = [
+    {
+      title: "my-project",
+      image: "",
+      description: "First project",
+      githubrepolink: "github.com",
+      deploylink: "github.com",
+    },
+    {
+      title: "my-project",
+      image: "",
+      description: "First project",
+      githubrepolink: "github.com",
+      deploylink: "github.com",
+    },
+    {
+      title: "my-project",
+      image: "",
+      description: "First project",
+      githubrepolink: "github.com",
+      deploylink: "github.com",
+    },
+    {
+      title: "my-project",
+      image: "",
+      description: "First project",
+      githubrepolink: "github.com",
+      deploylink: "github.com",
+    },
+  ];
+  const renderCard = (card, index) => {
+    return (
+      <Card style={{ width: "18rem" }} key={index}>
+        <Card.Img variant="top" src={card.image} />
+        <Card.Body>
+          <Card.Title>{card.title}</Card.Title>
+          <Card.Text>{card.description}</Card.Text>
+          <Button variant="primary">{card.githubrepolink}</Button>
+          <Button variant="primary">{card.deploylink}</Button>
+        </Card.Body>
+      </Card>
+    );
+  };
 
-    // const projects = [
-    //     {
-    //         title: "",
-    //         description:
-    //         link:""
-    //     }
-    // ]
-    return(
-
-      <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Git hub link</Button>
-        <Button variant="primary">Deploy link</Button>
-      </Card.Body>
-    </Card>
-    )
-}
+  return <div className="App">
+    {projectsInfo.map(renderCard)}</div>;
+};
 
 export default Portfolio;
