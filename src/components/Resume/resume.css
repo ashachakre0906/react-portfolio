@@ -1,8 +1,5 @@
-/* .download-cv-btn{
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+.button{
+   
     padding: 10px 20px;
     color: #fff;
     border: none;
@@ -13,6 +10,6 @@
     background: rgba(0, 0, 0, 0.5);
 }
 
-.download-cv-btn:hover{
+.button:hover{
     background: #000;
-} */
+}

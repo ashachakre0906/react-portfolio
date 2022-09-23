@@ -6,6 +6,7 @@ import employeetracker from "./employeetracker.png";
 import teamprofile from "./team-profile.png";
 import freakimono from "./freakimono.png";
 import pokemonbattle from "./pokemon-battle.png";
+import uploadedFileLink from "./asha-chakre.pdf"
 
 
 export {
@@ -17,6 +18,6 @@ export {
     employeetracker,
     teamprofile,
     freakimono,
-    pokemonbattle
-
+    pokemonbattle,
+    uploadedFileLink
 };

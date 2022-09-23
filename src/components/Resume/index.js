@@ -1,13 +1,22 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.css';
+import "bootstrap/dist/css/bootstrap.css";
 import { Button } from "react-bootstrap";
-import './resume.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import "./resume.css";
+import { uploadedFileLink } from "../../assets/images";
 const Resume = () => {
   return (
     <>
-<Button className="download-cv-btn" variant="outline-success">Download CV</Button>
-</>
-
+      <a
+        href={uploadedFileLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        download
+      >
+        <Button>
+        <FontAwesomeIcon icon="fa-regular fa-cloud-arrow-down" />Download File</Button>
+      </a>
+    </>
   );
 };
 
