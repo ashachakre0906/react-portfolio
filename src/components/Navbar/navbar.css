@@ -1,16 +1,40 @@
 .nav-link{
-    justify-content:flex-end;
+    color: #fff;
+    opacity: 1;
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 50px;
+    transition: .5s;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    padding: 10px 30px;
 }
+
 /* .header{
     font-family: 'Bungee Spice', cursive;
 } */
-.header {
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    /* justify-content:center;
+    align-items: center; */
+    z-index: 9;
+    background: #1a1a1a;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+}
+
+.link a:hover, .link.active a{
+    opacity: 1;
+}
+/* .header {
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
     color:azure;
 
-}
-.navbar-nav {
-    font-size: 1.3rem;
-    font-family: 'Poppins', sans-serif;
-}
+} */

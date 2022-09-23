@@ -7,8 +7,7 @@ const Navigation = (props) => {
   return (
     <>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Container>
-          <header className="header">Asha Chakre</header>
+          {/* <header className="header">Asha Chakre</header> */}
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse className="nav-link" id="responsive-navbar-nav">
             <Nav>
@@ -53,9 +52,7 @@ const Navigation = (props) => {
               <Nav.Link href="/contact">Contact</Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
-        </Container>
       </Navbar>
-      <br />
     </>
   );
 };

@@ -1,10 +1,11 @@
-import React from "react";
 import Card from "react-bootstrap/Card";
+import {Container,Col,Row} from 'react-bootstrap';
 import { Button } from "react-bootstrap";
+import CardGroup from 'react-bootstrap/CardGroup';
 import { codequiz, weatherdashboard, notetaker,workdayplanner,employeetracker,teamprofile,freakimono,pokemonbattle } from "../../assets/images";
 import './portfolio.css';
 
-const Portfolio = () => {
+const Portfolio = () =>{
   const projectsInfo = [
     {
       title: "Code Quiz",
@@ -70,8 +71,9 @@ const Portfolio = () => {
   ];
   const renderCard = (card, index) => {
     return (
-      <Card style={{ width: "18rem" }} key={index} className='box'>
-        <Card.Img variant="top" src={card.image} />
+      <div className="row">
+        <Card style={{width: "18rem"}} key={index} className='box'>
+        <Card.Img variant="top" src={card.image} className='card-img-top' />
         <Card.Body>
           <Card.Title>{card.title}</Card.Title>
           <Card.Text>{card.description}</Card.Text>
@@ -79,11 +81,12 @@ const Portfolio = () => {
           <Button variant="primary">{card.deployurl}</Button>
         </Card.Body>
       </Card>
+        </div>
     );
   };
 
-  return <div className="container">
-    {projectsInfo.map(renderCard)}</div>;
+  return <div className="grid">
+    { projectsInfo.map(renderCard)}</div>;
 };
-
 export default Portfolio;
+  

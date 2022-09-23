@@ -1,11 +1,13 @@
-.App {
-  text-align: center;
-}
+
 /* This will remove any margin or padding */
-body {
-  margin : 0;
-  padding: 0;
-}
+/* body{
+  width: 100%;
+  max-width: 1400px;
+  display: block;
+  margin: auto;
+  min-height: 100vh;
+
+} */
 
 /* .App-logo {
   height: 40vmin;
