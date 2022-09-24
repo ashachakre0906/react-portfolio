@@ -1,7 +1,6 @@
-import Card from "react-bootstrap/Card";
-import {Container,Col,Row} from 'react-bootstrap';
-import { Button } from "react-bootstrap";
-import CardGroup from 'react-bootstrap/CardGroup';
+// import Card from "react-bootstrap/Card";
+// import {Container,Col,Row} from 'react-bootstrap';
+// import { Button } from "react-bootstrap";
 import { codequiz, weatherdashboard, notetaker,workdayplanner,employeetracker,teamprofile,freakimono,pokemonbattle } from "../../assets/images";
 import './portfolio.css';
 
@@ -71,17 +70,29 @@ const Portfolio = () =>{
   ];
   const renderCard = (card, index) => {
     return (
-      <div className="row">
-        <Card style={{width: "18rem"}} key={index} className='box'>
-        <Card.Img variant="top" src={card.image} className='card-img-top' />
-        <Card.Body>
-          <Card.Title>{card.title}</Card.Title>
-          <Card.Text>{card.description}</Card.Text>
-          <Button variant="primary">{card.githuburl}</Button>
-          <Button variant="primary">{card.deployurl}</Button>
-        </Card.Body>
-      </Card>
-        </div>
+  <a className="card-link" href={card.githuburl} target="_blank">
+    <div key={index} className='card'>
+  <img src={card.image} className="card-img-top" alt="project image"/>
+  <div className="card-body">
+    <h5 className="card-title">{card.title}</h5>
+    <p className="card-text">{`${card.description.substring(0, 150)}...`}</p>
+    {/* <a href={card.githuburl} className="btn btn-primary">Github</a>
+    <a href={card.deployurl} className="btn btn-primary">Deployapp</a> */}
+  </div>
+  </div>
+  </a>
+  
+      // <div className="row">
+      //   <Card style={{width: "18rem"}} key={index} className='box'>
+      //   <Card.Img variant="top" src={card.image} className='card-img-top' />
+      //   <Card.Body>
+      //     <Card.Title>{card.title}</Card.Title>
+      //     <Card.Text>{card.description}</Card.Text>
+      //     <Button variant="primary">{card.githuburl}</Button>
+      //     <Button variant="primary">{card.deployurl}</Button>
+      //   </Card.Body>
+      // </Card>
+      //   </div>
     );
   };
 

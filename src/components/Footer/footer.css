@@ -1,14 +1,16 @@
 .footer{
-    position:fixed;
-    bottom:0;
+    /* position:fixed;
+    bottom:0; */
     width:100%  ;  
     background-color: black;
     color:white;
     text-align: center;
+    margin-bottom: 0;
     
 }
 .footer-text{
     font-size:1.2em;
+    margin: 0;
 }
 .social-media-icons-white a{
     color:rgba(255, 255, 255, 0.55);
