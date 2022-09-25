@@ -11,7 +11,7 @@ import { Container } from "react-bootstrap";
 function Footer() {
   return (
     <div className="footer">
-      <div className="d-flex justify-content-center singlecol social-media-icons-white">
+      <div className="d-flex justify-content-center social-media-icons-white">
         <a href="https://github.com/ashachakre0906">
           <FontAwesomeIcon icon={faGithub} />
         </a>
@@ -26,7 +26,7 @@ function Footer() {
         </a>
       </div>
 
-      <p className="footer-text">&copy; Asha Chakre, 2022</p>
+      <p className="footer-text">Copyright &copy;2022, Asha Chakre</p>
     </div>
   );
 }

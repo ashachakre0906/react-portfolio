@@ -1,11 +1,12 @@
 .footer{
-    /* position:fixed;
-    bottom:0; */
-    width:100%  ;  
+    position: fixed;
+    width: 100%;
+    bottom:0;
+    z-index: 1;
     background-color: black;
     color:white;
     text-align: center;
-    margin-bottom: 0;
+    bottom: 0;
     
 }
 .footer-text{
