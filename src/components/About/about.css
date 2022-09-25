@@ -1,34 +1,74 @@
 :root {
   --dark-purple: #202330;
   --light-purple: #7b84aa;
+  --color: rgba(255, 255, 255, 0.55);
+  --hovercolor:rgba(255, 255, 255, 0.75);
+  --fontfamily:'Poppins', sans-serif;
+
 }
 .about-me{
   width: 100%;
     height: 100vh;
-    
     background: linear-gradient(10deg, var(--dark-purple), var(--light-purple)) no-repeat fixed center;
+    font-family:var(--fontfamily);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 0;
+    margin-top: -100px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+
+   
+}
+
+img {
+  width: 10rem;
+  border-radius:20px;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+}
+.hero-heading {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color:darkgrey;
 
 }
-.about-me {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-  background: linear-gradient(10deg, var(--dark-purple), var(--light-purple)) no-repeat fixed center;
-  background-size: cover;
-  background-size: contain;
+ h2 {
+  font-weight: 500;
+  margin-top: 90px;
+  color: var(--color)
+
 }
-.about-me img {
-  width: 10rem;
+h2:hover {
+  color:var(--hovercolor)
+}
+p {
+  font-size: 1.2rem;
+  margin-bottom: 5rem;
+  word-wrap:break-word;
+  text-align: center;
+  padding: 10px;
+  color: darkgrey;
+
+}
+ a.btn {
+  display: inline-block;
+  padding: 1rem 1rem;
+  background-color:darkgray;
+  font-size:1rem;
+  font-weight: bold;
+  color:paleturquoise;
+  text-decoration: none;
   border-radius: 10px;
-  justify-self: center;
-  align-self: center;
+  transition: background 0.5s;
+  border-color:10px darkgray;
+
 }
-.main-title {
-  align-self: flex-start;
-}
-.download-cv-btn{
+
+/* .download-cv-btn{
   position: absolute;
   bottom: 30px;
   left: 50%;
@@ -41,5 +81,5 @@
   cursor: pointer;
   transition: .5s;
   background: rgba(0, 0, 0, 0.5);
-}
+} */
 
