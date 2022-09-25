@@ -52,7 +52,7 @@ const Portfolio = () =>{
 
     },
     {
-      title: "Project Freakimono",
+      title: "Freakimono",
       image: freakimono,
       description: "Welcome to Freakimono! This immersive app combines the joy of creating and caring for a loveable little creature and the fun of connecting with other users to battle it out in a dynamic battle environment. Upon first visit, we'll guide you through the process of setting up a new account and the inception of your new adorable digital friend. Once your new friend is created and named, you be introduced to the playpen where you can adore and care for your new pet's needs. Lucky for you, the messes are virtual and the means to meet your little friends needs are costless! When you are ready to take on the virtual network of other creatures, visit the battle page to duke it out with other users in a head to head memory challenge. Fight for your life and get rewarded.",
       githuburl: "https://github.com/Team-Narwhal/My_Pet",
@@ -60,7 +60,7 @@ const Portfolio = () =>{
 
     },
     {
-      title: "Project Pokemon-Battle",
+      title: "Pokemon Battle",
       image: pokemonbattle,
       description: "Collaborate with fellow developers to build a front-end application that is interactive (i.e: accept and respond to user input) and utilizes at least two server-side APIs. The application will be live and deployed to Github pages",
       githuburl: "https://github.com/dnsnguy08/Pokemon-Battle",
