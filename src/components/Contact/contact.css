@@ -1,5 +1,24 @@
+main {
+  font-family: 'Poppins','cursive';
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%)no-repeat fixed center;
+  background-size: contain;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction:column;
+  justify-content:center ;
+  align-items: center;
+}
+
 .form {
-    margin: 20px;
+    max-width:500px; 
+    width: 100%;
+    margin:0 auto;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    animation: bounce 1.5s infinite;
+    padding: none;
+
   }
   
   .form input {
@@ -7,5 +26,9 @@
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100%;
+  }
+  .contact-heading{
+     text-align: center;
+     text-decoration: none;
   }
   

@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import { Form } from 'react-bootstrap/Form';
-import { Button } from 'react-bootstrap/Button';
 import './contact.css';
 
 // Here we import a helper function that will check if the email is valid
@@ -51,10 +49,9 @@ function ContactForm() {
     setEmail('');
     setMessage('');
   };
-
   return (
-    <div>
-      <p>Hello {username}</p>
+    <main>
+    <h2 className='contact-heading'>Contact Form</h2>
       <form className="form">
       <input
           value={username}
@@ -84,7 +81,7 @@ function ContactForm() {
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
-    </div>
+    </main>
   );
 }
 
