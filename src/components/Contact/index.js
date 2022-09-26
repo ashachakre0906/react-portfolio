@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import './contact.css';
 
 // Here we import a helper function that will check if the email is valid
@@ -50,9 +52,9 @@ function ContactForm() {
     setMessage('');
   };
   return (
-    <main>
-    <h2 className='contact-heading'>Contact Form</h2>
+    <div className='contact-container'>
       <form className="form">
+      <h2 className='contact-heading'>Contact Form</h2>
       <input
           value={username}
           name="username"
@@ -74,15 +76,14 @@ function ContactForm() {
           type="text"
           placeholder="message"
         />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+       <button type="button" onClick={handleFormSubmit}>SEND<FontAwesomeIcon icon={faPaperPlane}/></button>
       </form>
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
-    </main>
+    </div> 
   );
 }
-
 export default ContactForm;
