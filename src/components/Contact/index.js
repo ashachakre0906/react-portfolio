@@ -13,7 +13,6 @@ function ContactForm() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
-  // const [initialState, changeState] = useState('')
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -43,8 +42,10 @@ function ContactForm() {
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
+    } else {
+      setErrorMessage('Message sent!');
     }
-    alert(`Hello ${username}${email}${message}`);
+    // alert(`Hello ${username}${email}${message}`);
 
     // If everything goes according to plan, we want to clear out the input.
     setName('');
@@ -53,36 +54,39 @@ function ContactForm() {
   };
   return (
     <div className='contact-container'>
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
       <form className="form">
       <h2 className='contact-heading'>Contact Form</h2>
-      <input
+      <div className='input-container'>
+       <input className='form-control'
           value={username}
           name="username"
           onChange={handleInputChange}
           type="text"
           placeholder="Name"
         />
-        <input
+        <input className='form-control'
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
           placeholder="email"
         />
-        <input
+        <textarea className='text-area'
           value={message}
           name="message"
           onChange={handleInputChange}
           type="text"
           placeholder="message"
         />
-       <button type="button" onClick={handleFormSubmit}>SEND<FontAwesomeIcon icon={faPaperPlane}/></button>
+       <button className='submit' type="button" onClick={handleFormSubmit}>Send <FontAwesomeIcon icon={faPaperPlane}/></button>
+      </div>
       </form>
-      {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
-      )}
+      
     </div> 
   );
 }
