@@ -16,8 +16,8 @@
 }
 .card {
   max-width: 300px;
-  min-height: 400px;
-  max-height: 400px;
+  min-height: 500px;
+  max-height: 500px;
   border-radius: 20px;
   box-shadow: 1px 1px 5px 0px rgba(82, 82, 82, 0.75);
   transition: all 150ms ease-in-out;
@@ -45,13 +45,15 @@
 }
 .card-body {
  text-align: center;
+ margin:0;
+ padding:0;
 }
 .card-text,.card-title{
   color:whitesmoke ;
 
 }
 .card-text{
-  padding: 0;
+  margin: 10px;
   background-color: black;
 
 }

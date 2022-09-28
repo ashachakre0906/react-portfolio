@@ -109,7 +109,7 @@ const Portfolio = () => {
                 <h5 className="card-title">{project.title}</h5>
                 <p className="card-text">{`${project.description.substring(
                   0,
-                  150
+                  100
                 )}...`}</p>
                 {/* <a href={card.githuburl} className="btn btn-primary">Github</a>
     <a href={card.deployurl} className="btn btn-primary">Deployapp</a> */}
