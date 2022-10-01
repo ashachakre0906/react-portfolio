@@ -9,8 +9,7 @@ In this challenge we are creating React portfolio which includes the following.
 
 - A single Footer component that appears on multiple pages
 
-[DEPLOY URL](https://ashachakre0906.github.io/react-portfolio/)
-
+[DEPLOY URL](https://ashachakre0906.github.io/react-portfolio/)<br>
 [SOLUTION URL](https://github.com/ashachakre0906/react-portfolio)
 
 ### Live Demo
