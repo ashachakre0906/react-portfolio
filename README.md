@@ -1,3 +1,17 @@
+## Description
+
+In this challenge we are creating React portfolio which includes the following.
+- A single Header component that appears on multiple pages
+
+- A single Navigation component within the header that will be used to conditionally render the different sections of your portfolio
+
+- A single Project component that will be used multiple times in the Portfolio section
+
+- A single Footer component that appears on multiple pages
+
+[PORTFOLIO URL](https://ashachakre0906.github.io/react-portfolio/)
+[SOLUTION URL](https://github.com/ashachakre0906/react-portfolio)
+
 ## User Story
 ```md
 AS AN employer looking for candidates with experience building single-page applications
@@ -33,7 +47,7 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 ```
 ### The following animation demonstrates the application functionality
-<img src = "../src/images/portfolio.png">
+<img src = "./src/assets/images/portfolio.png">
 
 ## Technologies Used
 ![React Badge](https://img.shields.io/badge/Frontend-React-blue.svg)
