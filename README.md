@@ -13,6 +13,10 @@ In this challenge we are creating React portfolio which includes the following.
 
 [SOLUTION URL](https://github.com/ashachakre0906/react-portfolio)
 
+### Live Demo
+###### The following animation demonstrates the application functionality
+![Live Demo](./src/assets/images/react-portfolio.gif)
+
 ## User Story
 ```md
 AS AN employer looking for candidates with experience building single-page applications
@@ -47,7 +51,6 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 ```
-### The following animation demonstrates the application functionality
 <img src = "./src/assets/images/portfolio.png">
 
 ### Code Snippets
