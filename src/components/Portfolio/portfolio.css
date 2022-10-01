@@ -48,8 +48,9 @@
  margin:0;
  padding:0;
 }
-.card-text,.card-title{
-  color:whitesmoke ;
+.card-title{
+  color:rgba(62, 10, 38, 0.653) ;
+  font-size: 20px;
 
 }
 .card-text{

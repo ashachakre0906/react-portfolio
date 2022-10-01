@@ -10,6 +10,7 @@ In this challenge we are creating React portfolio which includes the following.
 - A single Footer component that appears on multiple pages
 
 [PORTFOLIO URL](https://ashachakre0906.github.io/react-portfolio/)
+
 [SOLUTION URL](https://github.com/ashachakre0906/react-portfolio)
 
 ## User Story
@@ -48,6 +49,10 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ```
 ### The following animation demonstrates the application functionality
 <img src = "./src/assets/images/portfolio.png">
+
+### Code Snippets
+
+
 
 ## Technologies Used
 ![React Badge](https://img.shields.io/badge/Frontend-React-blue.svg)
