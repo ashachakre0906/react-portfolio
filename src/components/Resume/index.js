@@ -14,10 +14,11 @@ const Resume = () => {
         rel="noopener noreferrer"
         download
       >
-        {/* <Button>
+      
+        <button className="button">
           <FontAwesomeIcon icon={uploadedFileLink} />
-          Download File
-        </Button> */}
+          Download Resume
+        </button>
       </a>
       <embed
         src={uploadedFileLink}

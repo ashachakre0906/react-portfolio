@@ -95,7 +95,6 @@ const Portfolio = () => {
 
   return (
     <div className="grid">
-
       {projectsInfo.map((project, i) => {
         return (
           <a className="card-link" href={project.githuburl} target="_blank">

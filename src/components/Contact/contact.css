@@ -16,6 +16,10 @@
   align-items: center;
 
 }
+.error-text {
+color:darkred;
+font-size:20px;
+}
 
 .form {
     /* box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4); */
@@ -51,6 +55,9 @@
      text-align: center;
      text-decoration: none;
      padding-top: 30px;
+     color:#CC6666;
+     font-weight:500;
+
   }
   .submit {
   max-width: 100%;
@@ -59,12 +66,12 @@
   border:0;
   cursor:pointer;
   color:white;
-  font-size:24px;
+  font-size:20px;
   padding-top:10px;
   padding-bottom:10px;
   transition: all 0.3s;
   margin-top:-4px;
-  font-weight:700;
+  font-weight:300;
   margin-top:10px
   }
   
