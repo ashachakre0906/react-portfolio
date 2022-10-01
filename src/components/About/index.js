@@ -10,7 +10,12 @@ const About = () => {
       <div>
       <img src={image} alt="Asha Chakre" />
       </div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p>Passionate and Ambitious Full Stack Developer
+        and UX/UI enthusiast 
+        based in San Jose,CA
+        with prior experience in quality assurance<br></br>
+        Eager to leverage skills and experience 
+        in a fast-paced environment and grow as a developer.</p>
     <a href="https://github.com/ashachakre0906" className="btn">Get In Touch</a> 
     </div>   
   );

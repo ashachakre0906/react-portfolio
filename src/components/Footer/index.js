@@ -26,7 +26,7 @@ function Footer() {
         </a>
       </div>
 
-      <p className="footer-text">Copyright &copy;2022, Asha Chakre</p>
+      <p className="footer-text">&copy;Asha Chakre,2022</p>
     </div>
   );
 }
