@@ -53,7 +53,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 <img src = "./src/assets/images/portfolio.png">
 
 ### Code Snippets
-***In the below portfolio component function.I have created an array of projects.Mapping through each and every project in array by its index and return will render the card dynamically.I am able to use JSX expressions to render variables in my components. ***
+***In the below portfolio component function.I have created an array of projects.Mapping through each and every project in array by its index and return will render the card dynamically.I am able to use JSX expressions to render variables in my components***
 ```js
 return (
     <div className="grid">
