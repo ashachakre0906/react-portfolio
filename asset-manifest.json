@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.4e7e097b.css",
-    "main.js": "/react-portfolio/static/js/main.d1db4ec2.js",
+    "main.css": "/react-portfolio/static/css/main.5f50c81b.css",
+    "main.js": "/react-portfolio/static/js/main.3af8bbb9.js",
     "static/media/pokemon-battle.png": "/react-portfolio/static/media/pokemon-battle.b4fd36bffaa93626cc84.png",
     "static/media/mypic.png": "/react-portfolio/static/media/mypic.6885d456a20a60ecfa35.png",
+    "static/media/bone-buddies.png": "/react-portfolio/static/media/bone-buddies.52a8f2f5a0d595c9ebf7.png",
     "static/media/code-quiz.png": "/react-portfolio/static/media/code-quiz.05ca43b0d23ebae8761d.png",
     "static/media/work-day-planner.png": "/react-portfolio/static/media/work-day-planner.d6e806d5e2371c5ed044.png",
     "static/media/freakimono.png": "/react-portfolio/static/media/freakimono.7bd9d277c8a6e72b4148.png",
@@ -13,11 +14,11 @@
     "static/media/employeetracker.png": "/react-portfolio/static/media/employeetracker.a3cc2db9e5674935ba96.png",
     "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.b76ca8a9b1cdefd84719.png",
     "index.html": "/react-portfolio/index.html",
-    "main.4e7e097b.css.map": "/react-portfolio/static/css/main.4e7e097b.css.map",
-    "main.d1db4ec2.js.map": "/react-portfolio/static/js/main.d1db4ec2.js.map"
+    "main.5f50c81b.css.map": "/react-portfolio/static/css/main.5f50c81b.css.map",
+    "main.3af8bbb9.js.map": "/react-portfolio/static/js/main.3af8bbb9.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e7e097b.css",
-    "static/js/main.d1db4ec2.js"
+    "static/css/main.5f50c81b.css",
+    "static/js/main.3af8bbb9.js"
   ]
 }
