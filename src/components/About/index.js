@@ -11,10 +11,9 @@ const About = () => {
       <img src={image} alt="Asha Chakre" />
       </div>
       <p>Passionate and Ambitious Full Stack Developer
-        and UX/UI enthusiast 
-        based in San Jose,CA
+        and UX/UI enthusiast based in San Jose,CA with the passion of learning and creating apps
         with prior experience in quality assurance<br></br>
-        Eager to leverage skills and experience 
+        eager to leverage skills and experience 
         in a fast-paced environment and grow as a developer.</p>
     <a href="https://github.com/ashachakre0906" className="btn">Get In Touch</a> 
     </div>   
