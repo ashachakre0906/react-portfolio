@@ -6,7 +6,7 @@ import employeetracker from "./employeetracker.png";
 import teamprofile from "./team-profile.png";
 import freakimono from "./freakimono.png";
 import pokemonbattle from "./pokemon-battle.png";
-import uploadedFileLink from "./asha-chakre.pdf";
+import uploadedFileLink from "./asha_chakre_resume.pdf";
 import boneBuddies from "./bone-buddies.png"
 
 export {

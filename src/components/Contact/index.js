@@ -73,7 +73,7 @@ function ContactForm() {
           value={email}
           name="email"
           onChange={handleInputChange}
-          type="email"
+          type="text"
           placeholder="email"
         />
         <textarea className='text-area'
