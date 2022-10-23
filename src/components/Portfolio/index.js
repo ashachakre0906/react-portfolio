@@ -103,6 +103,7 @@ const Portfolio = () => {
   //   </div>
 
   return (
+  <div className="container-1">
     <div className="grid">
       {projectsInfo.map((project, i) => {
         return (
@@ -127,6 +128,7 @@ const Portfolio = () => {
         );
       })}
     </div>
+  </div>
   ); //this will activate render card function six times for each project
 };
 

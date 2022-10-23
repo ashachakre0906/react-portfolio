@@ -1,12 +1,9 @@
 
 /* This will remove any margin or padding */
-/* body{
-  width: 100%;
-  max-width: 1400px;
+/* body,html{
+  max-width: 100%;
   display: block;
-  margin: auto;
   min-height: 100vh;
-
 } */
 
 /* .App-logo {

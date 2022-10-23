@@ -20,7 +20,7 @@ const Resume = () => {
           Download Resume
         </button>
       </a>
-      <embed
+      <embed className="resume-section"
         src={uploadedFileLink}
         type="application/pdf"
         frameBorder="0"

@@ -6,6 +6,8 @@
   --fontfamily: "Poppins", sans-serif;
 }
 .about-me {
+  max-width: 100%;
+  height: 100vh;
   background: linear-gradient(1000deg, var(--dark-purple), var(--light-purple))
     no-repeat fixed center;
   font-family: var(--fontfamily);
@@ -13,8 +15,6 @@
     border-color 0.15s ease-in-out;
 }
 .about-section {
-  /* max-width: 100%;
-  height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -84,7 +84,13 @@ a.btn {
 /* 375, 500, 768, 1200 */
 
 @media only screen and (max-width: 375px) {
+  .about-section{
+    margin-bottom: 700px !important;
+    min-height: 100vh;
+}
  .about-me{
-  min-width:50%;
+  margin-bottom: 150px !important;
+
  }
+
 }
