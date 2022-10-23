@@ -5,10 +5,9 @@ import MainTitle from "./header";
 const About = () => {
   return (
     <div className="about-me">
-      <header>
+     <section className="about-section">
       <h1 className="hero-heading">Asha Chakre</h1>
       <h2>Full Stack Developer</h2>
-      </header>
       <div>
       <img src={image} alt="Asha Chakre" />
       </div>
@@ -17,7 +16,8 @@ const About = () => {
         with prior experience in quality assurance
         eager to leverage skills and experience 
         in a fast-paced environment and grow as a developer.</p>
-    <a href="https://github.com/ashachakre0906" className="btn">Get In Touch</a> 
+      <a href="https://github.com/ashachakre0906" className="btn">Get In Touch</a> 
+     </section>
     </div>   
   );
 };
