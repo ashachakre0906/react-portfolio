@@ -19,11 +19,12 @@
   margin :0 auto;
   min-height:90vh ;
   font-family: var(--fontfamily);
+  padding-top:8px;
 }
 .card {
   max-width: 300px;
-  min-height: 500px;
-  max-height: 500px;
+  min-height: 400px;
+  max-height: 400px;
   border-radius: 20px;
   box-shadow: 1px 1px 5px 0px rgba(82, 82, 82, 0.75);
   transition: all 150ms ease-in-out;
@@ -34,12 +35,13 @@
   width:100%;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
   border-radius: 5px;
+  margin-bottom: none;
 
 }
+
 .card-link {
   text-decoration: none;
-  margin :2rem auto;
-
+margin:5px 10px;
 }
  a .card:hover {
   top: -3px;
@@ -52,28 +54,31 @@
 }
 .card-body {
  text-align: center;
- margin:0;
  padding:0;
 }
 .card-title{
   color:rgba(62, 10, 38, 0.653) ;
-  font-size: 20px;
+  font-size: 22px;
   font-style: italic;
   font-family: fantasy;
   font-weight: 600;
+  margin:-18px;
 
 }
 .card-text{
   margin: 10px;
   background-color: black;
   color: antiquewhite;
+  border-radius: 5px;
+  padding: 10px;
 }
 .card-title{
 
-  box-shadow: 5px 5px 5px rgba(#000, .2), 
+  /* box-shadow: 5px 5px 5px rgba(#000, .2), 
 							5px 5px 17px rgba(#000, .35), 
-							5px 5px 25px rgba(#000, .5);
+							5px 5px 25px rgba(#000, .5); */
   text-shadow: 1px 1px #000;
+
 
 }
 

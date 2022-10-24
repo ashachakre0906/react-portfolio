@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap');
 body {
   margin: 0;
   font-family:'Poppins', sans-serif;
+  font-family: 'Manrope',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100%;
-  background-image: linear-gradient(150deg, black, #00072D, black);
+  /* background-image: linear-gradient(150deg, black, #00072D, black); */
+  color:none;
+  scroll-behavior: smooth;
 
 }
-#tsparticles {
+/* #tsparticles {
   z-index: -1;
-}
+} */

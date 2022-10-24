@@ -12,11 +12,11 @@ import Footer from "./components/Footer";
 import config from "./data/particles.json";
 import Particles from 'react-tsparticles';
 
-const styles = {
-  background: {
-    overflowX: "hidden"
-  }
-}
+// const styles = {
+//   background: {
+//     overflowX: "hidden"
+//   }
+// }
 
 function App() {
   // let selectedPage = "About";
@@ -43,14 +43,14 @@ function App() {
 
   return (
     <>
-    <div id="body" style={styles.background}>
+    {/* <div id="body" style={styles.background}>
       <Particles
         id="tsparticles"
         options={config}
       />
+    </div> */}
       <Navbar changePage={changePage} />
       {renderPage()}
-    </div>
       <Footer />
     </>
   );
