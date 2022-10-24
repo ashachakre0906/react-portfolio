@@ -26,6 +26,7 @@
     "react-social-icons": "^5.14.0",
     "react-tsparticles": "^2.3.3",
     "react-vivus": "^0.0.2",
+    "tsparticles": "^2.3.4",
     "vivus": "^0.4.6",
     "web-vitals": "^2.1.4"
   },

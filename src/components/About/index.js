@@ -1,10 +1,13 @@
 import image from "../../assets/images/mypic.png";
 import "./about.css";
 import MainTitle from "./header";
+import Particles from "../Particles/particles";
 
 const About = () => {
   return (
+    <>
     <div className="about-me">
+      <Particles/>
      <section className="about-section">
       <h1 className="hero-heading">Asha Chakre</h1>
       <h2>Full Stack Developer</h2>
@@ -18,7 +21,8 @@ const About = () => {
         in a fast-paced environment and grow as a developer.</p>
       <a href="https://github.com/ashachakre0906" className="btn">Get In Touch</a> 
      </section>
-    </div>   
+    </div> 
+    </>  
   );
 };
 
