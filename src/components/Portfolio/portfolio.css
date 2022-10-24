@@ -58,12 +58,15 @@
 .card-title{
   color:rgba(62, 10, 38, 0.653) ;
   font-size: 20px;
+  font-style: italic;
+  font-family: fantasy;
+  font-weight: 600;
 
 }
 .card-text{
   margin: 10px;
   background-color: black;
-
+  color: antiquewhite;
 }
 .card-title{
 

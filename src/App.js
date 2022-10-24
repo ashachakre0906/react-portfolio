@@ -9,7 +9,6 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
-import Particles from "./components/Particles/particles.js";
 
 function App() {
   // let selectedPage = "About";
