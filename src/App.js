@@ -11,13 +11,21 @@ import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 import config from "./data/particles.json";
 import Particles from 'react-tsparticles';
+import {loadSnowPreset} from "tsparticles-preset-snow";
+import { loadBubblesPreset } from "tsparticles-preset-bubbles";
+// import { loadStarsPreset } from "tsparticles-preset-stars";
 
-// const styles = {
-//   background: {
-//     overflowX: "hidden"
-//   }
-// }
-
+class ParticlesContainer extends React.PureComponent {
+  async customInit(engine){
+    await loadSnowPreset(engine);
+  }
+  render() {
+    const options = {
+      preset: "snow"
+    };
+    return <Particles options={options}init={this.customInit}style={{opacity: "0.3"}}/>
+  }
+}
 function App() {
   // let selectedPage = "About";
   const [selectedPage, setSelectedPage] = useState("About");
@@ -50,6 +58,7 @@ function App() {
       />
     </div> */}
       <Navbar changePage={changePage} />
+      <ParticlesContainer/>
       {renderPage()}
       <Footer />
     </>
