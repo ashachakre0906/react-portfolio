@@ -1,44 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .resume-sec {
-    padding: 10px 20px;
-    color: #fff;
-    border: none;
-    font-size: 16px;
-    text-transform: capitalize;
-    cursor: pointer;
-    transition: .5s; 
-    font-family: 'Poppins','cursive';
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: "Poppins", "cursive";
+  max-width: 100%;
+  height: 100vh;
+  background-color: cadetblue;
+  padding: 50px;
+  margin: 0 auto;
 }
-.resume-section{
-    max-width: 100%;
-    height:100vh;
+button {
+  margin: 0 auto;
+  border-radius: 10px;
+  font-family: "Poppins", "cursive";
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 15px;
+  /* background-color:#020706; */
+  border-color: none;
+  background:#020706;
+  color: aliceblue;
+  /* color: rgb(255 255 255 / 55%); */
+  text-shadow: 1px 1px 1px #020706, 1px 2px 1px #020706, 1px 3px 1px #020706,
+    1px 4px 1px #020706, 1px 5px 1px #020706, 1px 6px 1px #020706,
+    1px 6px 3px hsl(0deg 0% 6% / 40%), 1px 10px 5px hsl(0deg 0% 6% / 20%),
+    1px 12px 15px hsl(0deg 0% 6% / 20%), 1px 18px 30px hsl(0deg 0% 6% / 40%);
+}
+button:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  border-color: none;
 }
 
-.button:hover{
-    background: #000;
+.skills-section1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 36px;
+  margin: 5px;
+  padding: 5px;
+  text-shadow: 1px 1px 1px #020706, 1px 2px 1px #020706, 1px 3px 1px #020706,
+    1px 4px 1px #020706, 1px 5px 1px #020706, 1px 6px 1px #020706,
+    1px 6px 3px hsl(0deg 0% 6% / 40%), 1px 10px 5px hsl(0deg 0% 6% / 20%),
+    1px 12px 15px hsl(0deg 0% 6% / 20%), 1px 18px 30px hsl(0deg 0% 6% / 40%);
 }
-.button {
-    margin:0 auto;
-    background-color: black;
-    color: antiquewhite;
-    border-radius: 10px;
-    font-family:'Poppins','cursive';
-    font-weight: 600;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    outline: none;    
-    margin-top:-15px;
-    margin-bottom: 10px;
-    padding:15px;
+
+ul li {
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: papayawhip;
 }
-a:link, a:visited, a:active {
-    text-decoration: none;
-    border-color: none;
-}
-a:hover .button {
-   background-color:none;
+
+.skill {
+  /* background: linear-gradient(to right, #f32170,
+                    #ff6b08, #cf23cf, #eedd44);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+background: antiquewhite;
+background: linear-gradient(to left, #008080 0%, darkblue 25%, #05C1FF 50%, #FFFFFF 75%, darkblue 90%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; */
+  text-align: center;
+  padding: 5px;
+  text-shadow: 1px 1px 1px #020706, 1px 2px 1px #020706, 1px 3px 1px #020706,
+    1px 4px 1px #020706, 1px 5px 1px #020706, 1px 6px 1px #020706,
+    1px 6px 3px hsl(0deg 0% 6% / 40%), 1px 10px 5px hsl(0deg 0% 6% / 20%),
+    1px 12px 15px hsl(0deg 0% 6% / 20%), 1px 18px 30px hsl(0deg 0% 6% / 40%);
+  /* color:rgb(255 255 255 / 55%); */
 }
