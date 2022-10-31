@@ -25,7 +25,7 @@ function Footer() {
           <FontAwesomeIcon icon={faFacebook} />
         </a>
       </div>
-      <p className="footer-text">&copy;2022 Asha Chakre</p>
+      <p className="footer-text"><strong>© Asha Chakre™</strong>Full-Stack Portfolio.All Rights Reserved.</p>
     </div>
   );
 }
