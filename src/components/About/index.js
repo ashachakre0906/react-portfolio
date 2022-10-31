@@ -15,7 +15,11 @@ const About = () => {
       </div>
       <p className="content">Passionate and Ambitious Full Stack Developer
         and UX/UI enthusiast based in San Jose,CA with the passion of learning and creating apps
-        with prior experience in quality assurance eager to leverage skills and experience in a fast-paced environment and grow as a developer.</p>
+        with prior experience in quality assurance eager to leverage skills and experience in a fast-paced environment and grow as a developer.
+        As a web developer, I emphasize a mobile-first web
+        development perspective along with creating responsive web applications
+        which enhance the users experience.I am excited to be a part of a
+        fast-paced, quality driven web development team.</p>
       <a href="https://github.com/ashachakre0906" className="btn">Get In Touch</a> 
      </section>
     </div> 

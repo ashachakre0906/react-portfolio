@@ -85,3 +85,13 @@ background: linear-gradient(to left, #008080 0%, darkblue 25%, #05C1FF 50%, #FFF
     1px 12px 15px hsl(0deg 0% 6% / 20%), 1px 18px 30px hsl(0deg 0% 6% / 40%);
   /* color:rgb(255 255 255 / 55%); */
 }
+/* @media only screen and (max-width: 375px) {
+  .resume-sec{
+    padding:5px;
+    flex-wrap: nowrap;
+  }
+  .button {
+    margin:
+  }
+ 
+} */
