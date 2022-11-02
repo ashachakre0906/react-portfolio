@@ -16,14 +16,20 @@
 
  
 .error-text {
-color:darkred;
+color:black;
 font-size:20px;
+text-align: center;
 }
 .main-title{
   text-align: center;
   margin-top: 20px;
   font-family: 'Dancing Script';
-  font-size: 30px;;
+}
+.contact-heading{
+  font-size: 40px;
+}
+p{
+  font-size: 30px;
 }
 
 .form {
@@ -65,23 +71,25 @@ font-size:20px;
 
   } */
   .submit {
-  width: 200px;
+  width: 150px;
+  height: 60px;
   background-image: linear-gradient(-15deg,rgba(255,122,24,.25),#fff);
   cursor:pointer;
   color:white;
-  font-size:20px;
-  padding-top:10px;
-  padding-bottom:10px;
+  font-size:26px;
+  padding:20px;
   transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:300;
-  margin-top:10px;
+  font-weight:100;
   border-radius:10px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top:2px;
   } 
   .submit:hover {
     box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
     transform: translateY(-3px);
-    width: 200px;
+    width: 180px;
     border-top: 5px solid #0e3750;
     border-radius: 10px;
   }

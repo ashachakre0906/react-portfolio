@@ -54,11 +54,11 @@ function ContactForm() {
   };
   return (
     <div className='contact-container'>
-      {errorMessage && (
+      {/* {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
         </div>
-      )}
+      )} */}
       {/* <form className="form"> */}
       <div className='main-title'>
       <h2 className='contact-heading'>Contact Me</h2>
@@ -67,6 +67,11 @@ function ContactForm() {
       </div>
       {/* <div className='input-container'> */}
       <form className="form">
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
        <input className='form-control'
           value={username}
           name="username"
@@ -79,14 +84,14 @@ function ContactForm() {
           name="email"
           onChange={handleInputChange}
           type="text"
-          placeholder="email"
+          placeholder="Email"
         />
         <textarea className='form_control'
           value={message}
           name="message"
           onChange={handleInputChange}
           type="text"
-          placeholder="message"
+          placeholder="Message"
         />
        <button className='submit' type="button" onClick={handleFormSubmit}>Send<span><FontAwesomeIcon icon={faPaperPlane}/></span></button>
       {/* </div> */}
