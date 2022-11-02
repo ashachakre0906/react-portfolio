@@ -62,7 +62,7 @@ function ContactForm() {
       {/* <form className="form"> */}
       <div className='main-title'>
       <h2 className='contact-heading'>Contact Me</h2>
-      <p>If you have an application you are interested in developing that you need built or a project that needs coding. I&apos;d love to help  with it.Please complete the form below to send me an email
+      <p>Please complete the form below to send me an email
 </p>
       </div>
       {/* <div className='input-container'> */}
@@ -88,10 +88,9 @@ function ContactForm() {
           type="text"
           placeholder="message"
         />
-       <button className='submit' type="button" onClick={handleFormSubmit}>Send <FontAwesomeIcon icon={faPaperPlane}/></button>
+       <button className='submit' type="button" onClick={handleFormSubmit}>Send<span><FontAwesomeIcon icon={faPaperPlane}/></span></button>
       {/* </div> */}
-      </form>
-      
+      </form>   
     </div> 
   );
 }
