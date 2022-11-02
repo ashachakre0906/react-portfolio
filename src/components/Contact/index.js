@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import './contact.css';
+import emailjs from '@emailjs/browser';
+import React, { useRef } from 'react';
 
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from '../../utils/helpers';
@@ -30,6 +32,16 @@ function ContactForm() {
     if (inputType === 'message') {
       setMessage(inputValue);
     }
+  };
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_58eeuha', 'template_eaoiirp', form.current, '7moyyXkvrDcFvYmwA')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   };
 
   const handleFormSubmit = (e) => {
@@ -62,7 +74,7 @@ function ContactForm() {
       {/* <form className="form"> */}
       <div className='main-title'>
       <h2 className='contact-heading'>Contact Me</h2>
-      <p>Please complete the form below to send me an email
+      <p className='text'>Please complete the form below to send me an email
 </p>
       </div>
       {/* <div className='input-container'> */}
