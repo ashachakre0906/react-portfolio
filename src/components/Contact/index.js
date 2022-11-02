@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React, { useRef,useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import './contact.css';
 import emailjs from '@emailjs/browser';
-import React, { useRef } from 'react';
 
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from '../../utils/helpers';
@@ -11,6 +10,7 @@ import { validateEmail } from '../../utils/helpers';
 function ContactForm() {
   // Create state variables for the fields in the form
   // We are also setting their initial values to an empty string
+  const form =useRef();
   const [username, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -33,8 +33,8 @@ function ContactForm() {
       setMessage(inputValue);
     }
   };
-  const sendEmail = (e) => {
-    e.preventDefault();
+  const sendEmail = () => {
+    // e.preventDefault();
 
     emailjs.sendForm('service_58eeuha', 'template_eaoiirp', form.current, '7moyyXkvrDcFvYmwA')
       .then((result) => {
@@ -58,7 +58,7 @@ function ContactForm() {
       setErrorMessage('Message sent!');
     }
     // alert(`Hello ${username}${email}${message}`);
-
+    sendEmail();
     // If everything goes according to plan, we want to clear out the input.
     setName('');
     setEmail('');
@@ -78,7 +78,7 @@ function ContactForm() {
 </p>
       </div>
       {/* <div className='input-container'> */}
-      <form className="form">
+      <form ref={form} className="form">
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
