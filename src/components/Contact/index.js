@@ -59,9 +59,14 @@ function ContactForm() {
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
+      {/* <form className="form"> */}
+      <div className='main-title'>
+      <h2 className='contact-heading'>Contact Me</h2>
+      <p>If you have an application you are interested in developing that you need built or a project that needs coding. I&apos;d love to help  with it.Please complete the form below to send me an email
+</p>
+      </div>
+      {/* <div className='input-container'> */}
       <form className="form">
-      <h2 className='contact-heading'>Contact Form</h2>
-      <div className='input-container'>
        <input className='form-control'
           value={username}
           name="username"
@@ -76,7 +81,7 @@ function ContactForm() {
           type="text"
           placeholder="email"
         />
-        <textarea className='text-area'
+        <textarea className='form_control'
           value={message}
           name="message"
           onChange={handleInputChange}
@@ -84,7 +89,7 @@ function ContactForm() {
           placeholder="message"
         />
        <button className='submit' type="button" onClick={handleFormSubmit}>Send <FontAwesomeIcon icon={faPaperPlane}/></button>
-      </div>
+      {/* </div> */}
       </form>
       
     </div> 
