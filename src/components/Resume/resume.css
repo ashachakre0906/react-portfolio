@@ -95,3 +95,9 @@ background: linear-gradient(to left, #008080 0%, darkblue 25%, #05C1FF 50%, #FFF
   }
  
 } */
+@media only screen and (max-width:375px){
+  button {
+    padding: 10px;
+  }
+
+}

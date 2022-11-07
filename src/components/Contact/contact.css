@@ -30,6 +30,7 @@ text-align: center;
 }
 .text{
   font-size: 30px;
+  padding:0 10px;
 }
 
 .form {
@@ -101,4 +102,13 @@ text-align: center;
       transform: translate(0, 8px);
     }
   } 
+@media only screen and (max-width:768px){
+  .footer {
+    position:fixed;
+  }
+  .about-section{
+    padding:40px;
+  }
+
+}
   
