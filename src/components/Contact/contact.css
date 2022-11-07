@@ -102,13 +102,9 @@ text-align: center;
       transform: translate(0, 8px);
     }
   } 
-@media only screen and (max-width:768px){
+@media only screen and (min-width:768px){
   .footer {
     position:fixed;
   }
-  .about-section{
-    padding:40px;
-  }
-
 }
   
