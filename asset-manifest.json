@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.a517d8a9.css",
-    "main.js": "/react-portfolio/static/js/main.d37436db.js",
+    "main.css": "/react-portfolio/static/css/main.0592b8f5.css",
+    "main.js": "/react-portfolio/static/js/main.4a7dffdd.js",
     "static/media/pokemon-battle.png": "/react-portfolio/static/media/pokemon-battle.b4fd36bffaa93626cc84.png",
     "static/media/mypic.png": "/react-portfolio/static/media/mypic.6885d456a20a60ecfa35.png",
     "static/media/bone-buddies.png": "/react-portfolio/static/media/bone-buddies.52a8f2f5a0d595c9ebf7.png",
@@ -14,11 +14,11 @@
     "static/media/employeetracker.png": "/react-portfolio/static/media/employeetracker.a3cc2db9e5674935ba96.png",
     "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.b76ca8a9b1cdefd84719.png",
     "index.html": "/react-portfolio/index.html",
-    "main.a517d8a9.css.map": "/react-portfolio/static/css/main.a517d8a9.css.map",
-    "main.d37436db.js.map": "/react-portfolio/static/js/main.d37436db.js.map"
+    "main.0592b8f5.css.map": "/react-portfolio/static/css/main.0592b8f5.css.map",
+    "main.4a7dffdd.js.map": "/react-portfolio/static/js/main.4a7dffdd.js.map"
   },
   "entrypoints": [
-    "static/css/main.a517d8a9.css",
-    "static/js/main.d37436db.js"
+    "static/css/main.0592b8f5.css",
+    "static/js/main.4a7dffdd.js"
   ]
 }
