@@ -15,7 +15,7 @@ const About = () => {
       </div>
       <p className="content">Passionate and Ambitious Full Stack Developer
         and UX/UI enthusiast based in San Jose,CA with the passion of learning and creating apps
-        with prior experience in quality assurance eager to leverage skills and experience in a fast-paced environment and grow as a developer.<br/>
+        with prior experience in quality assurance eager to leverage skills and experience in a fast-paced environment and grow as a developer.
         As a web developer, I emphasize a mobile-first web
         development perspective along with creating responsive web applications
         which enhance the users experience.</p>

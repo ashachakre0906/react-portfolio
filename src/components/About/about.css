@@ -77,10 +77,11 @@ h2:hover {
   text-align: center;
   padding: 10px;
   /* color:linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%); */
-  color:rgba(255, 255, 255, 0.55);
-  font-family:fantasy;
+  color: aliceblue;
+  /* color:rgba(255, 255, 255, 0.55); */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 22px;
-  font-weight:600;
+  font-weight:500;
   margin-bottom: 5px;
   /* background: linear-gradient(to right, #f32170,
                     #ff6b08, #cf23cf, #eedd44);
