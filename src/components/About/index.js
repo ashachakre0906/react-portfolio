@@ -20,7 +20,7 @@ const About = () => {
         development perspective along with creating responsive web applications
         which enhance the users experience.I am excited to be a part of a
         fast-paced, quality driven web development team.</p>
-      <a href="https://github.com/ashachakre0906" className="btn">Get In Touch</a> 
+      <a href="https://www.linkedin.com/in/ashachakre/" className="btn">Get In Touch</a> 
      </section>
     </div> 
     </>  

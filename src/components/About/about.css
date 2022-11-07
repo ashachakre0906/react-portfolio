@@ -24,7 +24,7 @@
   align-items: center;
   flex-wrap: wrap;
   margin:0;
-  padding: 0;
+  padding-top:15px;
 }
 
 img {

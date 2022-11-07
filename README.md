@@ -82,7 +82,7 @@ return (
 ![Deployment Badge](https://img.shields.io/badge/Deployment-ghpages-green.svg)
 
 ## Credits
-Thank you all TA's and my tutor Joem Casusi for helping debugging the errors in my code.
+Thank you to all TA's,my tutor Joem Casusi and my fellow bootcampers Nolan Spence and Angie Soto for always helping me .
 
 ## Questions
 Please reach out to me:<br>
