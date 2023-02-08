@@ -6,7 +6,7 @@ import {
   faInstagram,
   faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "../Footer/footer.css";
 import { Container } from "react-bootstrap";
 function Footer() {
@@ -19,7 +19,11 @@ function Footer() {
         <a href="https://www.linkedin.com/in/ashachakre/">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a href="mailto:chourpagar.asha@gmail.com" alt="email asha chakre" title="email me at chourpagar.asha@gmail.com">
+        <a
+          href="mailto:chourpagar.asha@gmail.com"
+          alt="email asha chakre"
+          title="email me at chourpagar.asha@gmail.com"
+        >
           <FontAwesomeIcon icon={faEnvelope} />
         </a>
         <a href="https://www.instagram.com">
@@ -29,7 +33,9 @@ function Footer() {
           <FontAwesomeIcon icon={faFacebook} />
         </a>
       </div>
-      <p className="footer-text"><strong>© Asha Chakre™</strong>Full-Stack Portfolio.All Rights Reserved.</p>
+      <p className="footer-text">
+        <strong>© Asha Chakre™</strong>Full-Stack Portfolio.All Rights Reserved.
+      </p>
     </div>
   );
 }

@@ -9,21 +9,21 @@ import {
   employeetracker,
   teamprofile,
   freakimono,
-  pokemonbattle,
-  boneBuddies
+  // pokemonbattle,
+  boneBuddies,
 } from "../../assets/images";
 import "./portfolio.css";
 
 const Portfolio = () => {
   const projectsInfo = [
-    {
+    /* {
       title: "Bone Buddies",
       image: boneBuddies,
       description:
-      "Bone Buddies is the ultimate web application to discover and interact with other dog lovers emphasizing the importance of finding the ideal dog playmate for your dog.Our site will easily guide you through the process of creating an account and then setting up your dog's profile.  And because we love dogs so much... of course",
+        "Bone Buddies is the ultimate web application to discover and interact with other dog lovers emphasizing the importance of finding the ideal dog playmate for your dog.Our site will easily guide you through the process of creating an account and then setting up your dog's profile.  And because we love dogs so much... of course",
       githuburl: "https://github.com/Unicorn-Barf/Doggy_Dating",
       deployurl: "https://dev-bone-buddies.herokuapp.com/",
-    },
+    }, */
     {
       title: "Code Quiz",
       image: codequiz,
@@ -40,14 +40,14 @@ const Portfolio = () => {
       githuburl: "https://github.com/ashachakre0906/Weather-Dashboard",
       deployurl: "https://ashachakre0906.github.io/Weather-Dashboard",
     },
-    {
+    /* {
       title: "Note taker",
       image: notetaker,
       description:
         "The goal is to build the backend application and connect it with the frontend application to the provided front end code and then deploy the entire application to Heroku.we need to create an application called Note Taker that can be used to retrieve, write, save and delete notes",
       githuburl: "https://github.com/ashachakre0906/note-taker",
       deployurl: "https://notes-keep-app.herokuapp.com",
-    },
+    }, */
     {
       title: "Work Day Planner",
       image: workdayplanner,
@@ -56,22 +56,22 @@ const Portfolio = () => {
       githuburl: "https://github.com/ashachakre0906/Work-Day-Planner",
       deployurl: "https://ashachakre0906.github.io/Work-Day-Planner",
     },
-    {
+    /* {
       title: "Employee Tracker",
       image: employeetracker,
       description:
         "Challenge is to build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.These interfaces are called content management systems (CMS) which allows non-developers to easily view and interact with information stored in databases",
       githuburl: "https://github.com/ashachakre0906/employee-tracker",
       deployurl: "https://github.com",
-    },
-    {
+    }, */
+    /* {
       title: "Team Profile Generator",
       image: teamprofile,
       description:
         "Challenge is to build a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays a nicely formatted team roster based on user input and summaries for each person.",
       githuburl: "https://github.com/ashachakre0906/team-Profile-Generator",
       deployurl: "https://ashachakre0906.github.io/team-Profile-Generator",
-    },
+    }, */
     {
       title: "Freakimono",
       image: freakimono,
@@ -80,14 +80,14 @@ const Portfolio = () => {
       githuburl: "https://github.com/Team-Narwhal/My_Pet",
       deployurl: "https://freakimono.herokuapp.com",
     },
-    {
+    /* {
       title: "Pokemon Battle",
       image: pokemonbattle,
       description:
         "Collaborate with fellow developers to build a front-end application that is interactive (i.e: accept and respond to user input) and utilizes at least two server-side APIs. The application will be live and deployed to Github pages",
       githuburl: "https://github.com/dnsnguy08/Pokemon-Battle",
       deployurl: "https://dnsnguy08.github.io/Pokemon-Battle",
-    },
+    }, */
   ];
 
   // <div className="row">
@@ -103,32 +103,32 @@ const Portfolio = () => {
   //   </div>
 
   return (
-  <div className="container-1">
-    <div className="grid">
-      {projectsInfo.map((project, i) => {
-        return (
-          <a className="card-link" href={project.githuburl} target="_blank">
-            <div key={i} className="card">
-              <img
-                src={project.image}
-                className="card-img-top"
-                alt="project image"
-              />
-              <div className="card-body">
-                <h5 className="card-title">{project.title}</h5>
-                <p className="card-text">{`${project.description.substring(
-                  0,
-                  100
-                )}...`}</p>
-                {/* <a href={card.githuburl} className="btn btn-primary">Github</a>
+    <div className="container-1">
+      <div className="grid">
+        {projectsInfo.map((project, i) => {
+          return (
+            <a className="card-link" href={project.githuburl} target="_blank">
+              <div key={i} className="card">
+                <img
+                  src={project.image}
+                  className="card-img-top"
+                  alt="project image"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">{project.title}</h5>
+                  <p className="card-text">{`${project.description.substring(
+                    0,
+                    100
+                  )}...`}</p>
+                  {/* <a href={card.githuburl} className="btn btn-primary">Github</a>
     <a href={card.deployurl} className="btn btn-primary">Deployapp</a> */}
+                </div>
               </div>
-            </div>
-          </a>
-        );
-      })}
+            </a>
+          );
+        })}
+      </div>
     </div>
-  </div>
   ); //this will activate render card function six times for each project
 };
 
