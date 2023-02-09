@@ -105,8 +105,6 @@ a.btn {
   transition: background 0.5s;
   /* border-color: 10px darkgray; */
 }
-.hidden {
-}
 
 /* .download-cv-btn{
   position: absolute;
@@ -124,14 +122,14 @@ a.btn {
 } */
 /* 375, 500, 768, 1200 */
 
-/* .social-media-icons-white a { */
-/* color: rgba(255, 255, 255, 0.55); */
-/* font-size: 2rem; */
-/* margin: 10px; */
-/* } */
-/* .social-media-icons-white a:hover { */
-/* color: rgba(255, 255, 255, 0.75); */
-/* } */
+.social-media-icons a {
+color:ghostwhite;
+font-size: 2rem;
+margin: 10px;
+}
+.social-media-icons-white a:hover {
+color: rgba(255, 255, 255, 0.75);
+}
 
 @media only screen and (max-width: 500px) {
   .content {
@@ -147,8 +145,8 @@ a.btn {
     text-align: center;
   }
 }
-@media only screen and (min-width: 769px) and (max-width: 1366px) {
-  .hidden {
+@media only screen and (min-width: 769px) and (max-width: 1920px) {
+  .hidden{
     visibility: hidden;
   }
 }

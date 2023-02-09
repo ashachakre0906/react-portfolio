@@ -33,7 +33,7 @@ const About = () => {
           <a href="https://www.linkedin.com/in/ashachakre/" className="btn">
             Get In Touch
           </a>
-          <div className="hidden d-flex justify-content-center social-media-icons-white">
+          <div className="hidden d-flex justify-content-center social-media-icons">
             <div className="hide">
               <a href="https://github.com/ashachakre0906">
                 <FontAwesomeIcon icon={faGithub} />
