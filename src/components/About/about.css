@@ -10,12 +10,12 @@
   height: 100vh;
   background: linear-gradient(50deg, var(--dark-purple), var(--light-purple))
     no-repeat fixed center;
-          /* background-image: linear-gradient(0deg, #deb3de 0%, #97D9E1 100%); */
-        /* border-color 0.15s ease-in-out; */
-        /* background-color: #74EBD5;
+  /* background-image: linear-gradient(0deg, #deb3de 0%, #97D9E1 100%); */
+  /* border-color 0.15s ease-in-out; */
+  /* background-color: #74EBD5;
         background-image: linear-gradient( 178.8deg,  rgba(0,88,143,1) 13.8%, rgba(21,190,240,1) 95.4% );  
         background-image: linear-gradient( 135deg, #2AFADF 10%, #4C83FF 100%);      */
-        /* background-image: linear-gradient( 135deg, #92FFC0 10%, #002661 100%); */
+  /* background-image: linear-gradient( 135deg, #92FFC0 10%, #002661 100%); */
 }
 .about-section {
   display: flex;
@@ -23,8 +23,8 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin:0;
-  padding-top:15px;
+  margin: 0;
+  padding-top: 15px;
 }
 
 img {
@@ -43,34 +43,38 @@ img {
                     #ff6b08, #cf23cf, #eedd44);
             -webkit-text-fill-color: transparent;
             -webkit-background-clip: text; */
-/* background: #008080;
+  /* background: #008080;
 background: linear-gradient(to left, #008080 0%, #FFFFFF 25%, #05C1FF 50%, #FFFFFF 75%, #005757 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent; */
-background: #008080;
-background: linear-gradient(to left, #008080 0%, #FFFFFF 25%, #05C1FF 50%, #FFFFFF 75%, #005757 120%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;            
+  background: #008080;
+  background: linear-gradient(
+    to left,
+    #008080 0%,
+    #ffffff 25%,
+    #05c1ff 50%,
+    #ffffff 75%,
+    #005757 120%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-align: center;
-  margin:0px;
-  padding:0px;
+  margin: 0px;
+  padding: 0px;
 }
 h2 {
   font-weight: 500;
   color: var(--color);
-  text-shadow: 1px 1px 1px #020706, 1px 2px 1px #020706,
-   1px 3px 1px #020706, 1px 4px 1px #020706,
-    1px 5px 1px #020706, 1px 6px 1px #020706,
-    1px 6px 3px hsl(0deg 0% 6% / 40%),
-    1px 10px 5px hsl(0deg 0% 6% / 20%),
-    1px 12px 15px hsl(0deg 0% 6% / 20%), 
-    1px 18px 30px hsl(0deg 0% 6% / 40%);
+  text-shadow: 1px 1px 1px #020706, 1px 2px 1px #020706, 1px 3px 1px #020706,
+    1px 4px 1px #020706, 1px 5px 1px #020706, 1px 6px 1px #020706,
+    1px 6px 3px hsl(0deg 0% 6% / 40%), 1px 10px 5px hsl(0deg 0% 6% / 20%),
+    1px 12px 15px hsl(0deg 0% 6% / 20%), 1px 18px 30px hsl(0deg 0% 6% / 40%);
 }
 
 h2:hover {
   color: var(--hovercolor);
 }
-.content{
+.content {
   font-size: 1.2rem;
   margin-bottom: 5rem;
   word-wrap: break-word;
@@ -79,9 +83,9 @@ h2:hover {
   /* color:linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%); */
   color: aliceblue;
   /* color:rgba(255, 255, 255, 0.55); */
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 22px;
-  font-weight:500;
+  font-weight: 500;
   margin-bottom: 5px;
   /* background: linear-gradient(to right, #f32170,
                     #ff6b08, #cf23cf, #eedd44);
@@ -90,16 +94,18 @@ h2:hover {
 }
 a.btn {
   display: inline-block;
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
   /* background-color: darkgray; */
   font-size: 1rem;
   font-weight: bold;
   color: paleturquoise;
-  background: linear-gradient(90deg, #FDBB2D 10%, #9689ae 50%);
+  background: linear-gradient(90deg, #fdbb2d 10%, #9689ae 50%);
   text-decoration: none;
   border-radius: 15px;
   transition: background 0.5s;
   /* border-color: 10px darkgray; */
+}
+.hidden {
 }
 
 /* .download-cv-btn{
@@ -118,21 +124,31 @@ a.btn {
 } */
 /* 375, 500, 768, 1200 */
 
+/* .social-media-icons-white a { */
+/* color: rgba(255, 255, 255, 0.55); */
+/* font-size: 2rem; */
+/* margin: 10px; */
+/* } */
+/* .social-media-icons-white a:hover { */
+/* color: rgba(255, 255, 255, 0.75); */
+/* } */
+
 @media only screen and (max-width: 500px) {
   .content {
     font-size: 1rem;
   }
   img {
-    width:100px;
+    width: 100px;
   }
 }
-@media only screen and (max-width:375px) {
+@media only screen and (max-width: 375px) {
   .content {
-    padding:none;
+    padding: none;
     text-align: center;
   }
-  
 }
- 
-
-
+@media only screen and (min-width: 769px) and (max-width: 1366px) {
+  .hidden {
+    visibility: hidden;
+  }
+}
