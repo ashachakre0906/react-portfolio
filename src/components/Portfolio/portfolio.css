@@ -81,6 +81,10 @@ a .card:hover {
 							5px 5px 25px rgba(#000, .5); */
   text-shadow: 1px 1px #000;
 }
+.buttonContainer{
+  display:flex;
+  justify-content: space-between;
+}
 @media only screen and (min-width: 360px) and (max-width: 768px) {
   .footer {
     display: none;

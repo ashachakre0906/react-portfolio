@@ -17,6 +17,13 @@ import "./portfolio.css";
 const Portfolio = () => {
   const projectsInfo = [
     {
+      title: "Freakimono",
+      image: freakimono,
+      description:"freakimono combines the joy of creating and caring for a little creature and the fun of connecting with other users to battle it out in a dynamic env",
+      githuburl: "https://github.com/Team-Narwhal/My_Pet",
+      deployurl: "https://freakimono.herokuapp.com",
+    },
+    {
       title: "Bone Buddies",
       image: boneBuddies,
       description:
@@ -72,14 +79,14 @@ const Portfolio = () => {
       githuburl: "https://github.com/ashachakre0906/team-Profile-Generator",
       deployurl: "https://ashachakre0906.github.io/team-Profile-Generator",
     },
-    {
+    /* {
       title: "Freakimono",
       image: freakimono,
       description:
         "This immersive app combines the joy of creating and caring for a loveable little creature and the fun of connecting with other users to battle it out in a dynamic env",
       githuburl: "https://github.com/Team-Narwhal/My_Pet",
       deployurl: "https://freakimono.herokuapp.com",
-    },
+    }, */
     {
       title: "Pokemon Battle",
       image: pokemonbattle,
@@ -120,8 +127,14 @@ const Portfolio = () => {
                     0,
                     70
                   )}...`}</p>
-                  <a href={project.githuburl} className="button">Github</a>
-    <a href={project.deployurl} className="button">Live</a>
+                  <div className="buttonContainer">
+                  <a href={project.githuburl} className="button">
+                    Github
+                  </a>
+                  <a href={project.deployurl} className="button">
+                    Live
+                  </a>
+                  </div>
                 </div>
               </div>
             </a>
