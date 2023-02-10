@@ -76,7 +76,7 @@ const Portfolio = () => {
       title: "Freakimono",
       image: freakimono,
       description:
-        "Welcome to Freakimono! This immersive app combines the joy of creating and caring for a loveable little creature and the fun of connecting with other users to battle it out in a dynamic battle environment",
+        "This immersive app combines the joy of creating and caring for a loveable little creature and the fun of connecting with other users to battle it out in a dynamic env",
       githuburl: "https://github.com/Team-Narwhal/My_Pet",
       deployurl: "https://freakimono.herokuapp.com",
     },
@@ -118,10 +118,10 @@ const Portfolio = () => {
                   <h5 className="card-title">{project.title}</h5>
                   <p className="card-text">{`${project.description.substring(
                     0,
-                    100
+                    70
                   )}...`}</p>
-                  {/* <a href={card.githuburl} className="btn btn-primary">Github</a>
-    <a href={card.deployurl} className="btn btn-primary">Deployapp</a> */}
+                  <a href={project.githuburl} className="button">Github</a>
+    <a href={project.deployurl} className="button">Live</a>
                 </div>
               </div>
             </a>
