@@ -30,7 +30,12 @@ const About = () => {
             perspective along with creating responsive web applications which
             enhance the users experience.
           </p>
-          <a href="https://www.linkedin.com/in/ashachakre/" className="btn">
+          <a
+            href="mailto:chourpagar.asha@gmail.com"
+            alt="email asha chakre"
+            title="email me at chourpagar.asha@gmail.com"
+            className="btn"
+          >
             Get In Touch
           </a>
           <div className="hidden d-flex justify-content-center social-media-icons">

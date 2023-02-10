@@ -8,13 +8,12 @@
 .about-me {
   max-width: 100%;
   height: 100vh;
-  background: linear-gradient(50deg, var(--dark-purple), var(--light-purple))
-    no-repeat fixed center;
+background: linear-gradient(50deg, var(--dark-purple), var(--light-purple))
+    /* no-repeat fixed center;
   /* background-image: linear-gradient(0deg, #deb3de 0%, #97D9E1 100%); */
-  /* border-color 0.15s ease-in-out; */
-  /* background-color: #74EBD5;
-        background-image: linear-gradient( 178.8deg,  rgba(0,88,143,1) 13.8%, rgba(21,190,240,1) 95.4% );  
-        background-image: linear-gradient( 135deg, #2AFADF 10%, #4C83FF 100%);      */
+  /* background-color: #74EBD5; */
+      /* background-image: linear-gradient( 178.8deg,  rgba(0,88,143,1) 13.8%, rgba(21,190,240,1) 95.4% );  */
+      /* background-image: linear-gradient( 135deg, #2AFADF 10%, #4C83FF 100%);      */
   /* background-image: linear-gradient( 135deg, #92FFC0 10%, #002661 100%); */
 }
 .about-section {
@@ -94,7 +93,7 @@ h2:hover {
 }
 a.btn {
   display: inline-block;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   /* background-color: darkgray; */
   font-size: 1rem;
   font-weight: bold;

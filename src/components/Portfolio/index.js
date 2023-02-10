@@ -128,10 +128,10 @@ const Portfolio = () => {
                     70
                   )}...`}</p>
                   <div className="buttonContainer">
-                  <a href={project.githuburl} className="button">
+                  <a href={project.githuburl} className="gitAndLiveLink">
                     Github
                   </a>
-                  <a href={project.deployurl} className="button">
+                  <a href={project.deployurl} className="gitAndLiveLink">
                     Live
                   </a>
                   </div>

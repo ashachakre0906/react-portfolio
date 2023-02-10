@@ -23,7 +23,7 @@ class ParticlesContainer extends React.PureComponent {
     const options = {
       preset: "snow"
     };
-    return <Particles options={options}init={this.customInit}style={{opacity: "0.3"}}/>
+    return <Particles options={options}init={this.customInit}style={{opacity: "0.2"}}/>
   }
 }
 function App() {
