@@ -29,7 +29,7 @@ const Portfolio = () => {
       description:
         "Bone Buddies is the ultimate web application to discover and interact with other dog lovers emphasizing the importance of finding the ideal dog playmate for your dog.Our site will easily guide you through the process of creating an account and then setting up your dog's profile.  And because we love dogs so much... of course",
       githuburl: "https://github.com/Unicorn-Barf/Doggy_Dating",
-      deployurl: "https://dev-bone-buddies.herokuapp.com/",
+      deployurl: "https://bonebuddies.onrender.com/",
     },
     {
       title: "Code Quiz",
