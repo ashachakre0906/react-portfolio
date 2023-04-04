@@ -17,13 +17,13 @@ In this challenge we are creating React portfolio which includes the following.
 ![Live Demo](./src/assets/images/react-portfolio.gif)
 
 ## User Story
-```md
-AS AN employer looking for candidates with experience building single-page applications
+```js
+As an employer looking for candidates with experience building single-page applications
 I WANT to view a potential employee's deployed React portfolio of work samples
 SO THAT I can assess whether they're a good candidate for an open position
 ```
 ## Acceptance Criteria
-```md
+```js
 GIVEN a single-page application portfolio for a web developer
 WHEN I load the portfolio
 THEN I am presented with a page containing a header, a section for content, and a footer
@@ -50,7 +50,21 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 ```
-<img src = "./src/assets/images/portfolio.png">
+***Desktop view***
+<img src = "./src/assets/images/portfolio.gif">
+
+***Mobile view***
+Common Responsive Breakpoints:
+Mobile: 360 x 640
+Mobile: 375 x 667
+Mobile: 360 x 720
+iPhone X: 375 x 812
+Pixel 2: 411 x 731
+Tablet: 768 x 1024
+Laptop: 1366 x 768
+High-res laptop or desktop: 1920 x 1080
+
+<img src = "./src/assets/images/react-portfolio-mobile-view.gif">
 
 ### Code Snippets
 ***In the below portfolio component function.I have created an array of projects.Mapping through each and every project in array by its index and return will render the card dynamically.I am able to use JSX expressions to render variables in my components***
@@ -84,7 +98,7 @@ return (
 ## Credits
 Thank you to all TA's,my tutor Joem Casusi and my fellow bootcampers Nolan Spence and Angie Soto for always helping me .
 
-## Questions
+## Questions`
 Please reach out to me:<br>
 Email Address: chourpagar.asha@gmail.com <br>
 Github Repo URL:[GitHub](https://github.com/ashachakre0906)
