@@ -51,18 +51,18 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 ```
 ***Desktop view***
-<img src = "./src/assets/images/portfolio.gif">
+<img src = "./src/assets/images/react_portfolio.gif">
 
 ***Mobile view***
-Common Responsive Breakpoints:
-Mobile: 360 x 640
-Mobile: 375 x 667
-Mobile: 360 x 720
-iPhone X: 375 x 812
-Pixel 2: 411 x 731
-Tablet: 768 x 1024
-Laptop: 1366 x 768
-High-res laptop or desktop: 1920 x 1080
+***Common Responsive Breakpoints***
+- Mobile: 360 x 640
+- Mobile: 375 x 667
+- Mobile: 360 x 720
+- iPhone X: 375 x 812
+- Pixel 2: 411 x 731
+- Tablet: 768 x 1024
+- Laptop: 1366 x 768
+- High-res laptop or desktop: 1920 x 1080
 
 <img src = "./src/assets/images/react-portfolio-mobile-view.gif">
 
