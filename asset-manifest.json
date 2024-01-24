@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.c602dea5.css",
-    "main.js": "/react-portfolio/static/js/main.6628c9bc.js",
+    "main.js": "/react-portfolio/static/js/main.1ef3d80b.js",
     "static/media/pokemon-battle.png": "/react-portfolio/static/media/pokemon-battle.b4fd36bffaa93626cc84.png",
     "static/media/mypic.png": "/react-portfolio/static/media/mypic.6885d456a20a60ecfa35.png",
     "static/media/bone-buddies.png": "/react-portfolio/static/media/bone-buddies.52a8f2f5a0d595c9ebf7.png",
@@ -9,16 +9,16 @@
     "static/media/work-day-planner.png": "/react-portfolio/static/media/work-day-planner.d6e806d5e2371c5ed044.png",
     "static/media/freakimono.png": "/react-portfolio/static/media/freakimono.7bd9d277c8a6e72b4148.png",
     "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.994b618bc987fcc7effe.png",
-    "static/media/asha_chakre_resume.pdf": "/react-portfolio/static/media/asha_chakre_resume.2aab1ffa8647cea6948b.pdf",
+    "static/media/asha-chakre.pdf": "/react-portfolio/static/media/asha-chakre.c2c478a167bbda2a09fc.pdf",
     "static/media/team-profile.png": "/react-portfolio/static/media/team-profile.487c91080dcbc7cab7f2.png",
     "static/media/employeetracker.png": "/react-portfolio/static/media/employeetracker.a3cc2db9e5674935ba96.png",
     "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.b76ca8a9b1cdefd84719.png",
     "index.html": "/react-portfolio/index.html",
     "main.c602dea5.css.map": "/react-portfolio/static/css/main.c602dea5.css.map",
-    "main.6628c9bc.js.map": "/react-portfolio/static/js/main.6628c9bc.js.map"
+    "main.1ef3d80b.js.map": "/react-portfolio/static/js/main.1ef3d80b.js.map"
   },
   "entrypoints": [
     "static/css/main.c602dea5.css",
-    "static/js/main.6628c9bc.js"
+    "static/js/main.1ef3d80b.js"
   ]
 }
